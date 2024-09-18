@@ -5,6 +5,7 @@ import './index.css';
 import { ChakraProvider, extendTheme, ColorModeScript } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
 
+
 const styles = {
   global: (props) => ({
     body: {
@@ -31,6 +32,7 @@ const theme = extendTheme({
   styles,
   colors,
 });
+
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
