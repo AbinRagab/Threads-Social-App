@@ -59,10 +59,10 @@ function UserHeader() {
                 </Flex>
 
                <Flex>
-                    <Box className='bg-Icon'>
+                    <Flex className='bg-Icon' justifyContent={'center'} alignItems={'center'}> 
                         <BsInstagram size={24} cursor={'pointer'}/>
-                    </Box>
-                    <Box className='bg-Icon'>
+                    </Flex>
+                    <Flex className='bg-Icon' justifyContent={'center'} alignItems={'center'}>
                         <Menu>
                             <MenuButton>
                                  <CgMoreO size={24} cursor={'pointer'}/>
@@ -75,7 +75,7 @@ function UserHeader() {
                                 </MenuList>
                             </Portal>
                         </Menu>
-                    </Box>
+                    </Flex>
                </Flex>
             </Flex>
             <Flex w={"full"}>
