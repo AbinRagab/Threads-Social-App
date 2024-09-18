@@ -1,0 +1,9 @@
+.bg-Icon{
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-Icon:hover{
+    background-color: #1e1e1e80;
+}
